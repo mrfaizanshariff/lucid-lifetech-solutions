@@ -1,0 +1,73 @@
+#page1{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-top: 15vh;
+    
+    #main-heading::selection{
+        color: aqua;
+        background-color: green;
+    }
+    h1{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15vw;
+        text-transform: uppercase;
+        line-height: 10vw; 
+        letter-spacing: -4px;  
+        margin: 0;
+        display: inline-block;
+        font-weight: 900;
+    }
+    #sub-heading{
+        font-size: 10vw;
+    }
+}
+
+#vdo-container{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    position: relative;
+    cursor: pointer;
+}
+#vdo-container video{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+#vdo-container #play{
+padding: 2.5vw 1.5vw; 
+border-radius: 50%;
+background-color: black;
+color: #fff;
+font-size: 2vw;
+font-weight: 800;
+position: fixed;
+// top: 0;
+font-family: 'Nunito Sans', sans-serif;
+opacity: 0;
+scale: 0;
+}
+
+@media (max-width: 600px) {
+    #page1{
+        min-height: 40vh;
+        h1{
+            letter-spacing: -1px;
+        }
+        #vdo-container{
+            height: 45vh;
+
+            #play{
+                opacity: 0;
+                scale: 0;
+                padding: 6.5vw 4.5vw; 
+                font-size: 6vw;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+    }
+}

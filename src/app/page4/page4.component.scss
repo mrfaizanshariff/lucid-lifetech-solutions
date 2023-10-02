@@ -1,0 +1,62 @@
+.page4{
+    min-height: 80vh;
+    background: rgb(0,135,218);
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(0,135,218,1) 31%, rgba(104,185,46,1) 61%);
+   .zerob-heading{
+     font-size: 3rem;
+     letter-spacing: -1px;
+     margin-top: 0;
+     padding-top: 10px;
+    }
+
+    .products-container-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        hr{
+            width: 30%;
+            height: 3px;
+            background-color: #f7f7f7;
+            transform: rotate(90deg);
+            border: none;
+        }
+        .products-container{
+            width: 40%;
+            height: 45vh;
+
+            h2{
+                margin: 1%;
+            }
+            img{
+                height: 100%;
+                filter:drop-shadow(10px 10px 10px black)
+
+            }
+            @media screen and (max-width:750px) {
+                height: 30vh;
+                width: 100%;
+            }
+            @media screen and (max-width:550px) {
+                height: 25vh;
+            }
+            @media screen and (max-width:450px) {
+                height: 22vh;
+            }
+        }
+        @media screen and (max-width:750px) {
+            flex-direction: column;
+            gap: 4rem;
+            hr{
+                width: 60%;
+                transform: rotate(0deg);
+            }
+        }
+
+    }
+    @media screen and (max-width:750px) {
+       min-height: 100vh;
+    }
+}

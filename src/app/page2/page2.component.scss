@@ -1,0 +1,77 @@
+#page2{
+    min-height: 76vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    // align-items: center;
+    justify-content: space-around;
+    margin: 1vw 0 0 0;
+    padding-bottom: 2vw;
+    // padding: 3vw 1vw;
+    .elem{
+        height: 100%;
+        width: 45%;
+        // overflow: hidden;
+        position: relative;
+        margin: auto;
+        h2{
+            font-size: 2.2vw;
+        }
+        .action-button{
+            border-radius: 2vw;
+            font-size: 1.5vw;
+            padding: 7% 3%;
+            font-weight: 600;
+            text-align: center;
+            background-color: palegoldenrod;
+            color: #000;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        button{
+            background-color: blanchedalmond;
+            font-size: 1.2vw;
+            padding: 3% 1%;
+            border: none;
+            border-radius: 2vw;
+            font-weight: Bolder;
+            text-transform: uppercase;
+            // margin: auto;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 20px;
+            transition: all 0.3s;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: palegoldenrod;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    }
+    
+}
+
+@media (max-width: 600px) {
+    #page2{
+        min-height: 40vh;
+        flex-direction: column;
+        // background-color: red;
+        padding: 5vw 0px;
+        .elem{
+            width: 90%;
+            min-height: 10vh;
+            margin-bottom: 5vw;
+            h2{
+                font-size: 7vw;
+            }
+            .action-button{
+                border-radius: 8vw;
+                font-size: 5vw;
+                margin: 0;
+            }
+            button{
+                font-size: 4vw;
+            }
+        }
+    }
+}
