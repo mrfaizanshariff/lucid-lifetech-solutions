@@ -20,7 +20,7 @@ export class Page3Component implements OnInit {
       trigger:"#page3",
       start:"-10% center",
       // end:()=>"+="+ document.querySelector<HTMLElement>('.crompton-heading')?.offsetHeight,
-      end:"20% center",
+      end:"10% center",
       toggleActions:"restart pause reverse pause",
       // markers:true,
       // scrub:1,
@@ -28,10 +28,10 @@ export class Page3Component implements OnInit {
     },
     y:10,
     color:'blue',
-    duration:0.4,
+    duration:0.2,
     opacity:0,
     scale:0.5,
-    delay:0.4,
+    delay:0,
     })
 
   }
