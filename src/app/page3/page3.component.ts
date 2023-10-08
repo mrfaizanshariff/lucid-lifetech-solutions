@@ -22,9 +22,9 @@ export class Page3Component implements OnInit {
       // end:()=>"+="+ document.querySelector<HTMLElement>('.crompton-heading')?.offsetHeight,
       end:"20% center",
       toggleActions:"restart pause reverse pause",
-      markers:true,
+      // markers:true,
       // scrub:1,
-      id:"heading"
+      // id:"heading"
     },
     y:10,
     color:'blue',
