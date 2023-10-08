@@ -1,12 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~locomotive-scroll/dist/locomotive-scroll.css";
+@import "../src/app/shared/variables";
+@import "../src/app/about-us/about-us.component.scss";
+@import "../src/app/home-page/home-page.component.scss";
+@import "../src/app/nav-bar/nav-bar.component.scss";
+@import "../src/app/page1/page1.component.scss";
+@import "../src/app/page2/page2.component.scss";
+@import "../src/app/page3/page3.component.scss";
 *::selection{
     color: #fff;
     background-color: #000;
 }
+
 *{
     font-family: 'Nunito Sans', sans-serif
 }
 body{
-    background-color: #f7f7f7;
+    background-color: var(--background-color);
+    margin: 0;
 }

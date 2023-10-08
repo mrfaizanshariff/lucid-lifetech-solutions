@@ -23,7 +23,7 @@ export class Page2Component implements OnInit {
           end:()=>"+="+ document.querySelector<HTMLElement>('.elem')?.offsetHeight,
           toggleActions:"restart pause reverse pause",
           // markers:true,
-          scrub:1,
+          // scrub:1,
           // id:"image"
       },
         y:20,

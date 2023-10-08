@@ -2,7 +2,7 @@
     min-height: 100vh;
     width: 100%;
     position: relative;
-    padding-top: 15vh;
+    padding-top: 2vh;
     
     #main-heading::selection{
         color: aqua;
@@ -17,6 +17,7 @@
         margin: 0;
         display: inline-block;
         font-weight: 900;
+        color: var(--main-color);
     }
     #sub-heading{
         font-size: 10vw;

@@ -1,5 +1,5 @@
 #page2{
-    min-height: 76vh;
+    min-height: 60vh;
     width: 100%;
     position: relative;
     display: flex;
@@ -16,6 +16,7 @@
         margin: auto;
         h2{
             font-size: 2.2vw;
+            color: var(--main-color);
         }
         .action-button{
             border-radius: 2vw;
@@ -23,12 +24,12 @@
             padding: 7% 3%;
             font-weight: 600;
             text-align: center;
-            background-color: palegoldenrod;
+            background-color: var(--background-color);
             color: #000;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         }
         button{
-            background-color: blanchedalmond;
+            background-color: var(--background-color);
             font-size: 1.2vw;
             padding: 3% 1%;
             border: none;
@@ -44,7 +45,7 @@
         }
         button:hover{
             cursor: pointer;
-            background-color: palegoldenrod;
+            background-color: var(--highlight-two);
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         }
     }
@@ -53,7 +54,7 @@
 
 @media (max-width: 600px) {
     #page2{
-        min-height: 40vh;
+        min-height: 34vh;
         flex-direction: column;
         // background-color: red;
         padding: 5vw 0px;
