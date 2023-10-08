@@ -19,15 +19,16 @@ export class Page3Component implements OnInit {
     scrollTrigger:{
       trigger:"#page3",
       start:"-10% center",
-      end:()=>"+="+ document.querySelector<HTMLElement>('.crompton-heading')?.offsetHeight,
+      // end:()=>"+="+ document.querySelector<HTMLElement>('.crompton-heading')?.offsetHeight,
+      end:"20% center",
       toggleActions:"restart pause reverse pause",
-      // markers:true,
+      markers:true,
       // scrub:1,
-      // id:"headinsg"
+      id:"heading"
     },
-    y:300,
+    y:10,
     color:'blue',
-    duration:1,
+    duration:0.4,
     opacity:0,
     scale:0.5,
     delay:0.4,
